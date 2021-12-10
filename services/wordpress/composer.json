@@ -1,0 +1,13 @@
+{
+  "name": "forumone/renovate-example",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/wordpress-seo": "~15.4.0"
+  }
+}
