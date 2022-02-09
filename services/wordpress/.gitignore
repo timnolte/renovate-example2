@@ -11,6 +11,7 @@ auth.json
 public/wp
 public/wp-content/vendor
 vendor
+wordpress
 wp-content
 
 # Ignore WP plugins and themes by default. For custom code in one of these directories,

@@ -1,5 +1,5 @@
 {
-  "name": "forumone/renovate-example",
+  "name": "forumone/renovate-example2",
   "type": "project",
   "repositories": [
     {
@@ -8,6 +8,12 @@
     }
   ],
   "require": {
-    "wpackagist-plugin/wordpress-seo": "~15.4.0"
+    "johnpbloch/wordpress": "~5.5.0",
+    "johnpbloch/wordpress-core": "~5.5.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true
+    }
   }
 }
